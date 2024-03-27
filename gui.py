@@ -133,7 +133,7 @@ if __name__ == "__main__":
     print(img.size)
     photo = ImageTk.PhotoImage(img)
     image_Label = tk.Label(window, image=photo,bg="white")
-    image_Label.place(x=660, y=50, width=300, height=250)
+    image_Label.place(x=670, y=50, width=200, height=250)
     # image_Label.pack()
     label_emoji = tk.Label(window, text="happy", bg="white", font=('arial', 20, 'bold'))
     label_emoji.place(x=720, y=20, width=100, height=30)  # 设置标签的位置和大小
